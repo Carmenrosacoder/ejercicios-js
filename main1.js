@@ -8,23 +8,24 @@ while(i<10){
     suma=suma+numero;
 }
 
-document.write("la suma es:" + suma);
+document.write("la suma es:" + suma);*/
 /*EJERCICIO 2*/
-/*var suma=0;
+/*document.write("suma de 10 numeros");
+var suma=0;
 var i=0;
 do{
 i++
 numero = Number(prompt('ingresa numero'+i));
 suma=suma+numero;
 }while(i<10);
-document.write("la suma es:" + suma);
+document.write("la suma es:" + suma);*/
 /*EJERCICIO 3*/
 /*var suma=0;
 for (var i = 1; i <= 10; i++) {
     numero = Number(prompt('ingresa numero'+i));
     suma=suma+numero;
 }
-document.write("la suma es:" + suma);
+document.write("la suma es:" + suma);*/
 /*EJERCICIO 4 (for)*/
 /*var suma=0;
 n =Number(prompt('ingrese el numero de alumnos'));
@@ -68,8 +69,8 @@ document.write('<br>'+i);
 /*for(co=1 ; co<=500 ; co++){
     for (ca =1 ; ca <=500; ca++) {
         for (h =1 ; h <=500; h++) {
-    if(h*h===co*co+ca*ca){
-        document.write("terna pitagorica:"+'<br>'+co+'<br>'+ca+'<br>'+h+'<br>');
+            if(h*h===co*co+ca*ca){
+                document.write("terna pitagorica:"+'<br>'+co+'<br>'+ca+'<br>'+h+'<br>');
     }
 }
 }
@@ -105,11 +106,11 @@ suma=suma+nota;}
 promedio=suma/n;
 document.write("promedio notas:"+promedio+'<br>'+"la más baja calificacion es:"+ menor);*/
 /*EJERCICIO 10*/
-document.write("CUBO Y CUARTA DE UN NÚMERO");
+/*document.write("CUBO Y CUARTA DE UN NÚMERO");
 for (i =1; i <=10; i++) {
     n=Number(prompt('Ingresar número'+i));
     cubo=Math.pow(n,3);
     document.write('<br>'+"el cubo del numero "+n+" es:"+cubo);
     cuarta=Math.pow(n,4);
     document.write('<br>'+"la cuarta del numero "+n+" es:"+cuarta);
-}
+}*/
