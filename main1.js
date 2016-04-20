@@ -8,7 +8,7 @@ while(i<10){
     suma=suma+numero;
 }
 
-console.log("la suma es:" + suma);
+document.write("la suma es:" + suma);
 /*EJERCICIO 2*/
 /*var suma=0;
 var i=0;
@@ -17,14 +17,14 @@ i++
 numero = Number(prompt('ingresa numero'+i));
 suma=suma+numero;
 }while(i<10);
-console.log("la suma es:" + suma);
+document.write("la suma es:" + suma);
 /*EJERCICIO 3*/
 /*var suma=0;
 for (var i = 1; i <= 10; i++) {
     numero = Number(prompt('ingresa numero'+i));
     suma=suma+numero;
 }
-console.log("la suma es:" + suma);
+document.write("la suma es:" + suma);
 /*EJERCICIO 4 (for)*/
 /*var suma=0;
 n =Number(prompt('ingrese el numero de alumnos'));
@@ -33,7 +33,7 @@ for(var i=1 ;i<=n ; i++){
     suma=suma+edad;
 }
 promedio=suma/n;
-console.log("promedio de edades:"+promedio);*/
+document.write("promedio de edades:"+promedio);*/
 /*while*/
 /*n =Number(prompt('ingrese el numero de alumnos'));
 var suma=0;
@@ -44,7 +44,7 @@ while(i<n){
     suma=suma+edad;
 }
 promedio=suma/n;
-console.log("promedio de edades:"+promedio);*/
+document.write("promedio de edades:"+promedio);*/
 /*do while*/
 /*n =Number(prompt('ingrese el numero de alumnos'));
 var suma=0;
